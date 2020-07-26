@@ -66,45 +66,45 @@ for i in range(N//2):
 number = random.uniform(0,1)
 print(number)
 if number > 0 and number <= 0.1:
-    method= random.randint(1,100)
-    print(method)
-    d.InsertFront(method)
+    x= random.randint(1,100)
+    print(x)
+    d.InsertFront(x)
     
 if number >0.1 and number <= 0.3:
-    method = random.randint(1,100)
-    print(method)
+    x = random.randint(1,100)
+    print(x)
     d.RemoveFront()
     
 if number > 0.3 and number <= 0.4:
-    method = random.randint(1,100)
-    print(method)
+    x= random.randint(1,100)
+    print(x)
     d.AInsertback(method)
     
 if number > 0.4 and number <= 1:
-    method = random.randint(1,100)
-    print(method)
+    x = random.randint(1,100)
+    print(x)
     de.RemoveBack()
     
 
 if number >0 and number <= 0.1:
-    method = random.randint(1,100)
-    print(method)
-    de.InsertFront(method)
+    x = random.randint(1,100)
+    print(x)
+    de.InsertFront(x)
     
 if number >0.1 and number <= 0.7:
-    method= random.randint(1,100)
-    print(method)
+    x= random.randint(1,100)
+    print(x)
     de.RemoveFront()
     
 if number >0.7 and number <= 0.8:
-    method= random.randint(1,100)
-    print(method)
-    de.Insertback(method)
+    x= random.randint(1,100)
+    print(x)
+    de.Insertback(x)
     
 
 if number >0.8 and number <= 1:
-    method= random.randint(1,100)
-    print(method)
+    x= random.randint(1,100)
+    print(x)
     de.RemoveBack()
     
 print(de.displaydata())
